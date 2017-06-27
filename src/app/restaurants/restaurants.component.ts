@@ -18,5 +18,4 @@ export class RestaurantsComponent implements OnInit {
       .restaurants()
       .subscribe(restaurants => this.restaurants = restaurants)
   }
-
 }
